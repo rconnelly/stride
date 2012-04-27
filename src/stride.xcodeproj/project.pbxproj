@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C64F9759154B2EFA00F31433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F9758154B2EFA00F31433 /* UIKit.framework */; };
+		C64F975B154B2EFA00F31433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F975A154B2EFA00F31433 /* Foundation.framework */; };
+		C64F975D154B2EFA00F31433 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F975C154B2EFA00F31433 /* CoreGraphics.framework */; };
+		C64F9782154B2EFA00F31433 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F9781154B2EFA00F31433 /* SenTestingKit.framework */; };
+		C64F9783154B2EFA00F31433 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F9758154B2EFA00F31433 /* UIKit.framework */; };
+		C64F9784154B2EFA00F31433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C64F975A154B2EFA00F31433 /* Foundation.framework */; };
+		C64F978C154B2EFA00F31433 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C64F978A154B2EFA00F31433 /* InfoPlist.strings */; };
+		C64F978F154B2EFA00F31433 /* strideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F978E154B2EFA00F31433 /* strideTests.m */; };
+		C64F97A3154B31E000F31433 /* Controllers in Resources */ = {isa = PBXBuildFile; fileRef = C64F979F154B31E000F31433 /* Controllers */; };
+		C64F97A4154B31E000F31433 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = C64F97A0154B31E000F31433 /* Models */; };
+		C64F97A8154B320C00F31433 /* Supporting Files in Resources */ = {isa = PBXBuildFile; fileRef = C64F97A7154B320C00F31433 /* Supporting Files */; };
+		C64F97AB154B324C00F31433 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C64F97A9154B324C00F31433 /* MainStoryboard.storyboard */; };
+		C64F97AE154B326800F31433 /* QIOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F97AD154B326800F31433 /* QIOAppDelegate.m */; };
+		C64F97B3154B385A00F31433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C64F97B2154B385A00F31433 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C64F9785154B2EFA00F31433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C64F974B154B2EF900F31433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C64F9753154B2EFA00F31433;
+			remoteInfo = stride;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C64F9754154B2EFA00F31433 /* stride.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stride.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64F9758154B2EFA00F31433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C64F975A154B2EFA00F31433 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C64F975C154B2EFA00F31433 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C64F9780154B2EFA00F31433 /* strideTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = strideTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64F9781154B2EFA00F31433 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C64F9789154B2EFA00F31433 /* strideTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "strideTests-Info.plist"; sourceTree = "<group>"; };
+		C64F978B154B2EFA00F31433 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C64F978D154B2EFA00F31433 /* strideTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = strideTests.h; sourceTree = "<group>"; };
+		C64F978E154B2EFA00F31433 /* strideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = strideTests.m; sourceTree = "<group>"; };
+		C64F979F154B31E000F31433 /* Controllers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controllers; sourceTree = "<group>"; };
+		C64F97A0154B31E000F31433 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
+		C64F97A7154B320C00F31433 /* Supporting Files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Supporting Files"; sourceTree = "<group>"; };
+		C64F97AA154B324C00F31433 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C64F97AC154B326800F31433 /* QIOAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIOAppDelegate.h; sourceTree = "<group>"; };
+		C64F97AD154B326800F31433 /* QIOAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIOAppDelegate.m; sourceTree = "<group>"; };
+		C64F97AF154B32D000F31433 /* stride-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "stride-Info.plist"; sourceTree = "<group>"; };
+		C64F97B1154B332200F31433 /* stride-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "stride-Prefix.pch"; sourceTree = "<group>"; };
+		C64F97B2154B385A00F31433 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C64F9751154B2EFA00F31433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F9759154B2EFA00F31433 /* UIKit.framework in Frameworks */,
+				C64F975B154B2EFA00F31433 /* Foundation.framework in Frameworks */,
+				C64F975D154B2EFA00F31433 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64F977C154B2EFA00F31433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F9782154B2EFA00F31433 /* SenTestingKit.framework in Frameworks */,
+				C64F9783154B2EFA00F31433 /* UIKit.framework in Frameworks */,
+				C64F9784154B2EFA00F31433 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C64F9749154B2EF900F31433 = {
+			isa = PBXGroup;
+			children = (
+				C64F975E154B2EFA00F31433 /* Stride */,
+				C64F9787154B2EFA00F31433 /* strideTests */,
+				C64F9757154B2EFA00F31433 /* Frameworks */,
+				C64F9755154B2EFA00F31433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C64F9755154B2EFA00F31433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C64F9754154B2EFA00F31433 /* stride.app */,
+				C64F9780154B2EFA00F31433 /* strideTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C64F9757154B2EFA00F31433 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C64F9758154B2EFA00F31433 /* UIKit.framework */,
+				C64F975A154B2EFA00F31433 /* Foundation.framework */,
+				C64F975C154B2EFA00F31433 /* CoreGraphics.framework */,
+				C64F9781154B2EFA00F31433 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C64F975E154B2EFA00F31433 /* Stride */ = {
+			isa = PBXGroup;
+			children = (
+				C64F979F154B31E000F31433 /* Controllers */,
+				C64F97A0154B31E000F31433 /* Models */,
+				C64F97A7154B320C00F31433 /* Supporting Files */,
+				C64F97A9154B324C00F31433 /* MainStoryboard.storyboard */,
+				C64F97AF154B32D000F31433 /* stride-Info.plist */,
+				C64F97B1154B332200F31433 /* stride-Prefix.pch */,
+				C64F97AC154B326800F31433 /* QIOAppDelegate.h */,
+				C64F97AD154B326800F31433 /* QIOAppDelegate.m */,
+				C64F97B2154B385A00F31433 /* main.m */,
+			);
+			name = Stride;
+			path = stride;
+			sourceTree = "<group>";
+		};
+		C64F9787154B2EFA00F31433 /* strideTests */ = {
+			isa = PBXGroup;
+			children = (
+				C64F978D154B2EFA00F31433 /* strideTests.h */,
+				C64F978E154B2EFA00F31433 /* strideTests.m */,
+				C64F9788154B2EFA00F31433 /* Supporting Files */,
+			);
+			path = strideTests;
+			sourceTree = "<group>";
+		};
+		C64F9788154B2EFA00F31433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C64F9789154B2EFA00F31433 /* strideTests-Info.plist */,
+				C64F978A154B2EFA00F31433 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C64F9753154B2EFA00F31433 /* stride */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64F9792154B2EFA00F31433 /* Build configuration list for PBXNativeTarget "stride" */;
+			buildPhases = (
+				C64F9750154B2EFA00F31433 /* Sources */,
+				C64F9751154B2EFA00F31433 /* Frameworks */,
+				C64F9752154B2EFA00F31433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stride;
+			productName = stride;
+			productReference = C64F9754154B2EFA00F31433 /* stride.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C64F977F154B2EFA00F31433 /* strideTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64F9795154B2EFA00F31433 /* Build configuration list for PBXNativeTarget "strideTests" */;
+			buildPhases = (
+				C64F977B154B2EFA00F31433 /* Sources */,
+				C64F977C154B2EFA00F31433 /* Frameworks */,
+				C64F977D154B2EFA00F31433 /* Resources */,
+				C64F977E154B2EFA00F31433 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C64F9786154B2EFA00F31433 /* PBXTargetDependency */,
+			);
+			name = strideTests;
+			productName = strideTests;
+			productReference = C64F9780154B2EFA00F31433 /* strideTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C64F974B154B2EF900F31433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C64F974E154B2EF900F31433 /* Build configuration list for PBXProject "stride" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C64F9749154B2EF900F31433;
+			productRefGroup = C64F9755154B2EFA00F31433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C64F9753154B2EFA00F31433 /* stride */,
+				C64F977F154B2EFA00F31433 /* strideTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C64F9752154B2EFA00F31433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F97A3154B31E000F31433 /* Controllers in Resources */,
+				C64F97A4154B31E000F31433 /* Models in Resources */,
+				C64F97A8154B320C00F31433 /* Supporting Files in Resources */,
+				C64F97AB154B324C00F31433 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64F977D154B2EFA00F31433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F978C154B2EFA00F31433 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C64F977E154B2EFA00F31433 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C64F9750154B2EFA00F31433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F97AE154B326800F31433 /* QIOAppDelegate.m in Sources */,
+				C64F97B3154B385A00F31433 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C64F977B154B2EFA00F31433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C64F978F154B2EFA00F31433 /* strideTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C64F9786154B2EFA00F31433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C64F9753154B2EFA00F31433 /* stride */;
+			targetProxy = C64F9785154B2EFA00F31433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C64F978A154B2EFA00F31433 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64F978B154B2EFA00F31433 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C64F97A9154B324C00F31433 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C64F97AA154B324C00F31433 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C64F9790154B2EFA00F31433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C64F9791154B2EFA00F31433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C64F9793154B2EFA00F31433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stride/stride-Prefix.pch";
+				INFOPLIST_FILE = "stride/stride-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C64F9794154B2EFA00F31433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stride/stride-Prefix.pch";
+				INFOPLIST_FILE = "stride/stride-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C64F9796154B2EFA00F31433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stride.app/stride";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stride/stride-Prefix.pch";
+				INFOPLIST_FILE = "strideTests/strideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C64F9797154B2EFA00F31433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stride.app/stride";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stride/stride-Prefix.pch";
+				INFOPLIST_FILE = "strideTests/strideTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C64F974E154B2EF900F31433 /* Build configuration list for PBXProject "stride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64F9790154B2EFA00F31433 /* Debug */,
+				C64F9791154B2EFA00F31433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64F9792154B2EFA00F31433 /* Build configuration list for PBXNativeTarget "stride" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64F9793154B2EFA00F31433 /* Debug */,
+				C64F9794154B2EFA00F31433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C64F9795154B2EFA00F31433 /* Build configuration list for PBXNativeTarget "strideTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64F9796154B2EFA00F31433 /* Debug */,
+				C64F9797154B2EFA00F31433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C64F974B154B2EF900F31433 /* Project object */;
+}
