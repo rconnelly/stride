@@ -1,4 +1,4 @@
 Stride
 ======
 
-Stride
+Running app for the iPhone.
